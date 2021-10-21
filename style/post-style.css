@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.post-header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.post-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.post-header a:hover {
+    text-decoration: underline;
+}
+
+.post-img-container {
+    text-align: center;
+}
+
+.post-img-container img {
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.post-container p {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    padding: 15px;
+    line-height: 1.5em;
+    background-color: gainsboro;
+}
+
+.post-comment-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-username {
+    margin-top: 10px;
+}
+
+.comment-text {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
